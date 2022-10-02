@@ -84,3 +84,27 @@ btnHold.addEventListener('click', function() {
 });
 
 btnNew.addEventListener('click', init);
+
+
+
+
+
+
+
+/*btnRoll.addEventListener('click', function() {
+    if (playing) {
+        // Generating a random dice roll 
+        const dice = Math.trunc(Math.random() * 6) + 1;
+        // display dice 
+        diceEl.classList.remove('hidden');
+        diceEl.src = `dice-${dice}.png`;
+        // check for rolled 1,if true switch to next player
+        if (dice !== 1) {
+            // add dice to current score 
+            currentScore += dice;
+            document.getElementById(`current--${activePlayer}`).textContent = currentScore;
+            // current0El.textContent = currentscore; //change
+        } else {
+            // switch to next player
+            switchPlayer();
+        }*/
